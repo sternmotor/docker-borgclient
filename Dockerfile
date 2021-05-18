@@ -47,7 +47,6 @@ RUN set -ex \
  && DEBIAN_FRONTEND=noninteractive \
     apt-get install --yes --no-install-recommends --no-install-suggests \
         openssh-client \
-        netutils-ping \
         python3-minimal \
         python3-distutils \
         fuse \
